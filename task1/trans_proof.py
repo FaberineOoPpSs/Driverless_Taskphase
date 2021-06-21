@@ -1,12 +1,15 @@
 def mat_conv(row, col, l):
-    mat = []
+    i = 0
+    mat = [0] * row
+    for m in range(row):
+        mat[m] = [0] * col
     for m in range(row):
         temp = []
         for n in range(col):
-            temp.append(l[row * m + n])
-        
-        mat.append(temp)
+            mat[m][n] = l[i]
+            i = i + 1
     return mat
+
 
 def trans_conv(row, col, m):
     trans_mat = [0] * col
