@@ -3,13 +3,13 @@ https://youtu.be/TqnsAHkYgkw
 
 ## Creating the map
 
-### Launch gazebo world:
+### 1.Launch gazebo world:
 roslaunch slam_bot world.launch
-### Start map building
+### 2.Start map building
 roslaunch slam_bot gmapping_demo.launch
-### Launch rviz
+### 3.Launch rviz
 roslaunch slam_bot rviz_gmapping.launch
-### Move the bot around
+### 4.Move the bot around
 rosrun slam_bot keyboard_teleop.py 
 
 
@@ -18,9 +18,9 @@ rosrun map_server map_saver -f ~/formulam_ws/src/slam_bot/maps/test_map
 
 ## Loading the map:
 
-### Launch gazebo world:
+### 1.Launch gazebo world:
 roslaunch slam_bot world.launch
-### Launch amcl, move_base and rviz nodes:
+### 2.Launch amcl, move_base and rviz nodes:
 roslaunch slam_bot amcl_move_base.launch
 
 ## Install required dependencies:
