@@ -12,7 +12,9 @@ https://youtu.be/TqnsAHkYgkw
 ## Creating the map
 
 ### 1.Launch gazebo world:
+'''
 roslaunch slam_bot world.launch
+'''
 ### 2.Start map building
 roslaunch slam_bot gmapping.launch
 ### 3.Move the bot around
