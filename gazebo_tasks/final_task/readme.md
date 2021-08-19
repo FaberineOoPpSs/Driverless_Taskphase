@@ -30,5 +30,5 @@ roslaunch slam_bot world.launch
 roslaunch slam_bot amcl_move_base.launch
 
 ## Install required dependencies:
-sudo apt-get install ros-melodic-dwa-local-planner
+sudo apt-get install ros-melodic-dwa-local-planner \n
 sudo apt-get install ros-melodic-joy
