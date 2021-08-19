@@ -34,6 +34,7 @@ roslaunch slam_bot gmapping.launch
 ``` roslaunch slam_bot amcl_move_base.launch ```
 
 ## Install required dependencies:
-``` sudo apt-get install ros-melodic-dwa-local-planner <br>
+``` sudo apt-get install ros-melodic-dwa-local-planner ```
+```
 sudo apt-get install ros-melodic-joy
 ```
