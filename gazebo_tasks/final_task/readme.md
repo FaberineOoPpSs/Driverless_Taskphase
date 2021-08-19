@@ -9,6 +9,9 @@ roslaunch slam_bot world.launch
 roslaunch slam_bot gmapping_demo.launch
 ### Launch rviz
 roslaunch slam_bot rviz_gmapping.launch
+### Move the bot around
+rosrun slam_bot keyboard_teleop.py 
+
 
 ## Save the map:
 rosrun map_server map_saver -f ~/formulam_ws/src/slam_bot/maps/test_map
